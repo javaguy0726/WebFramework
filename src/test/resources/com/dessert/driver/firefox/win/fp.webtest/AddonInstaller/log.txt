@@ -1,0 +1,375 @@
+2015-12-17 18:07:19		INFO	AddonInstaller.InstallerService _installExtensions
+
+2015-12-17 18:07:19		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:19		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:19		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:19		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:19		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		WARN	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 513"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 525"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _getExtensionsToInstall:
+[Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIINIParser.getString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://addoninstaller/installerService.js :: AddonInstaller.InstallerService._getExtensionsToInstall :: line 531"  data: no]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService 14 extensions to be installed: [object Object];[object Object];[object Object];[object Object];[object Object];[object Object];[object Object];[object Object];[object Object];[object Object];[object Object];[object Object];[object Object];[object Object]
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _installExtension
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _shouldInstall
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isOSCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService _isLocaleCompatible
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService quicklaunch@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService quicklaunch@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\quicklaunch@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for quicklaunch@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService share_all_cn@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService share_all_cn@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\share_all_cn@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for share_all_cn@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService xthunder@lshai.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService xthunder@lshai.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\xthunder@lshai.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for xthunder@lshai.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService easyscreenshot@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService easyscreenshot@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\easyscreenshot@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for easyscreenshot@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService muter@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService muter@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\muter@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for muter@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService wx-assistant@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService wx-assistant@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\wx-assistant@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for wx-assistant@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService youdao-translate@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService youdao-translate@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\youdao-translate@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for youdao-translate@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService coba@mozilla.com.cn is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService coba@mozilla.com.cn should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\coba@mozilla.com.cn.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for coba@mozilla.com.cn: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService personas@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService personas@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\personas@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for personas@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService commonfix@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService commonfix@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\commonfix@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for commonfix@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService tabtweak@mozillaonline.com is not installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService tabtweak@mozillaonline.com should be installed: true
+
+2015-12-17 18:07:20		ERROR	AddonInstaller.InstallerService _installExtension:
+ File doesn't exists: D:\firefox\distribution\myextensions\tabtweak@mozillaonline.com.xpi
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for tabtweak@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Use xpi version instead.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService cehomepage@mozillaonline.com has been installed, addon version: 0.10.31, existing version: 0.10.31; comparison: 0
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService cehomepage@mozillaonline.com existing version is new, should not be installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService cehomepage@mozillaonline.com should be installed: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for cehomepage@mozillaonline.com: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Use xpi version instead.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService cpmanager@mozillaonline.com has been installed, addon version: 1.4.1, existing version: 1.4.1; comparison: 0
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService cpmanager@mozillaonline.com existing version is new, should not be installed.
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService cpmanager@mozillaonline.com should be installed: false
+
+2015-12-17 18:07:20		INFO	AddonInstaller.InstallerService Installation for cpmanager@mozillaonline.com: false
+
+2015-12-17 18:07:21		INFO	AddonInstaller.InstallerService Use xpi version instead.
+
+2015-12-17 18:07:21		INFO	AddonInstaller.InstallerService cemigration@mozillaonline.com has been installed, addon version: 39.0, existing version: 39.0; comparison: 0
+
+2015-12-17 18:07:21		INFO	AddonInstaller.InstallerService cemigration@mozillaonline.com existing version is new, should not be installed.
+
+2015-12-17 18:07:21		INFO	AddonInstaller.InstallerService cemigration@mozillaonline.com should be installed: false
+
+2015-12-17 18:07:21		INFO	AddonInstaller.InstallerService Installation for cemigration@mozillaonline.com: false
+
+2015-12-17 18:07:21		INFO	AddonInstaller.InstallerService All installation is finished.
+
+2015-12-17 18:07:21		INFO	AddonInstaller.InstallerService No addon is installed
+

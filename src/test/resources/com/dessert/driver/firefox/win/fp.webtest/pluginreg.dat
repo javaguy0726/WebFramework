@@ -1,0 +1,118 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.17|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\browser\nppdf32.dll|$
+11.0.13.17|$
+1443309562000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.13|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AIR\nppdf32.dll|$
+11.0.13.17|$
+1443309560000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.13|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+NPWizWebCapture.dll|$
+D:\WizNote\NPWizWebCapture.dll|$
+4.0.35.1|$
+1434707748000|0|0|0|$
+Wiz|$
+Wiz|$
+1
+0|application/x-wizbrother-wiz-ax|Wiz|ax|$
+npisecurity-pab.dll|$
+C:\Program Files (x86)\PINGAN-iSecurity 2.4\npisecurity-pab.dll|$
+2.4.25.0|$
+1372988170000|0|0|0|$
+SA-iSecurity Plug-in for PAB|$
+SA-iSecurity Plug-in for PAB|$
+1
+0|application/x-vnd-sa-isecurity-pab|SA-iSecurity||$
+npSSOAxCtrlForPTLogin.dll|$
+C:\Program Files (x86)\Common Files\Tencent\TXSSO\1.2.2.1\Bin\npSSOAxCtrlForPTLogin.dll|$
+1.0.1.10|$
+1365402240000|0|0|0|$
+QQ QuickLogin Helper|$
+Tencent SSO Platform|$
+1
+0|application/nptxsso|TXSSO||$
+npqscall.dll|$
+C:\Program Files (x86)\Common Files\Tencent\NPQSCALL\npqscall.dll|$
+1.90.4903.0|$
+1446516293984|0|0|0|$
+QQ2013 Firefox Plugin|$
+QQ2013 Firefox Plugin|$
+1
+0|application/qscall-plugin||dll|$
+npchrome.dll|$
+C:\Program Files (x86)\Common Files\Tencent\Npchrome\npchrome.dll|$
+1.90.4903.0|$
+1446516293976|0|0|0|$
+QQ2013 Chrome Plugin for Chrome V23.0.1271.64 or latest version|$
+QQ2013 Chrome Plugin for Chrome V23.0.1271.64 or latest version|$
+1
+0|application/npchrome-plugin|DLL|dll|$
+NPAUTHZ.DLL|$
+C:\PROGRA~2\MICROS~1\Office14\NPAUTHZ.DLL|$
+14.0.4730.1010|$
+1263044538000|0|0|0|$
+Office Authorization plug-in for NPAPI browsers|$
+Microsoft Office 2010|$
+1
+0|application/x-msoffice14|14.0.4730.1010|*|$
+NPSPWRAP.DLL|$
+C:\PROGRA~2\MICROS~1\Office14\NPSPWRAP.DLL|$
+14.0.4761.1000|$
+1269433358000|0|0|0|$
+The plug-in allows you to open and edit files using Microsoft Office applications|$
+Microsoft Office 2010|$
+1
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+NPSWF32_20_0_0_235.dll|$
+C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_20_0_0_235.dll|$
+20.0.0.235|$
+1449820417841|0|0|0|$
+Shockwave Flash 20.0 r0|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+npaxlogin.dll|$
+D:\360\360Safe\Utils\npaxlogin.dll|$
+1.0.0.1007|$
+1398162484000|0|0|0|$
+360安全卫士 快速登录|$
+360安全卫士 快速登录|$
+1
+0|application/mozilla-npqihooquicklogin|||$
+np360MMPlugIn.dll|$
+D:\360\360Safe\mobilemgr\np360MMPlugIn.dll|$
+2.4.0.1200|$
+1433322694000|0|0|0|$
+360MMPlugin|$
+360MMPlugin|$
+1
+0|application/x360mmplugin|360MMPlugin.dll|dll|$
+
+[INVALID]

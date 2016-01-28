@@ -1,0 +1,6 @@
+content   hostadmin-container       jar:chrome/firefox-hostadmin-1.4.9.2.jar!/container/firefox/
+content   hostadmin                 jar:chrome/firefox-hostadmin-1.4.9.2.jar!/core/
+content   hostadmin-icons           jar:chrome/firefox-hostadmin-1.4.9.2.jar!/icons/
+
+style	chrome://global/content/customizeToolbar.xul	chrome://hostadmin-container/content/hostadmin.css
+overlay	chrome://browser/content/browser.xul	chrome://hostadmin-container/content/hostadmin.xul

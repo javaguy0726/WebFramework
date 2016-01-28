@@ -1,0 +1,57 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AHfa2eSexvDxM9FRkoHHNQ==
+SHA1-Digest: 5MYso+DwKmemmXIuqC9sJlUngV4=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vuvZqwOChfxBGNskRWeImQ==
+SHA1-Digest: +a2mvXnbsz2vM4gr164CN2vX9Pk=
+
+Name: components/ns360se6Migrator.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ttFgnox96CasgHsABs8SeA==
+SHA1-Digest: qluX1HzwS+8CjE/oKNx44Di4oRw=
+
+Name: components/ns360seMigrator.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RfmG//o6Ci5tylPiGAc4wQ==
+SHA1-Digest: wjeq6XpvP+9DuK3HoW1bT4IIaG4=
+
+Name: components/profileStartup.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nVtXrgceAk1/HPKxHHu6TQ==
+SHA1-Digest: GwOu4CUIpjD/r9sVaGiDeOVJoP0=
+
+Name: content/overlay-migration.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: N6GJxrGBU52H8Yni0LTW4Q==
+SHA1-Digest: ndp8zMqbgzd7EfKYqnhoI5SODeQ=
+
+Name: content/overlay-migration.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aV49bjoqbMS5iRD2S+LW6g==
+SHA1-Digest: M92Rwd2fTu1Unqpw/2hyRT7q5v4=
+
+Name: locale/en-US/migration.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y5W62ngKdTm7T99wsQ7xlQ==
+SHA1-Digest: OOPUZh3dXa+da2CPfCKvvnwFoNc=
+
+Name: locale/en-US/migration.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AtP46uZ/PyoVThSSeyCKOQ==
+SHA1-Digest: FcXZ6VEzk4Dk4StFXKZ/r/7ZdiE=
+
+Name: locale/zh-CN/migration.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Hgy8Z2p8vHpGyrjof/z4DQ==
+SHA1-Digest: jkF6DXkeCYGu6/9ipaNiaiZdF+0=
+
+Name: locale/zh-CN/migration.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GnCcsvvxeE/8wXrH19tmXw==
+SHA1-Digest: H3wtMjuE8kqVV334okLEpTe+7LI=
+

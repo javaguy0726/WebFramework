@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vATTrQLxBGDiu+htPV7vpQ==
+SHA1-Digest: 2MWNcJOc4s9kJJnCw++M+zVM7hM=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q3BYf5c4dhPtBP2t0zYN3Q==
+SHA1-Digest: tK4mFBWNqCteyuDEOOPVY9pl26I=
+
+Name: chrome/firefox-hostadmin-1.4.9.2.jar
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: b6fy/5GkTTRffIftVgNq0A==
+SHA1-Digest: EPUeTkLp7kYMNn7/TuaRclZnOoE=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bKqc1mGQRBhRo5arMuTyHQ==
+SHA1-Digest: NRUuyRR87VkzKQ7YNhW81Z5Xc4U=
+
