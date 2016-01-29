@@ -1,4 +1,4 @@
-package com.juanpi.tools.thirdparty.arrow;
+package com.dessert.tools.thirdparty.arrow;
 
 import java.io.File;
 import java.net.InetAddress;
@@ -21,7 +21,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
 
-import com.juanpi.tools.PropertiesDataProvider;
+import com.dessert.tools.PropertiesDataProvider;
 
 /**
  * @author renta     Capture from Netease

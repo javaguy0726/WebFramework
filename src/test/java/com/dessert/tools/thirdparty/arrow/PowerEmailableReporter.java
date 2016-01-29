@@ -1,4 +1,4 @@
-package com.juanpi.tools.thirdparty.arrow;
+package com.dessert.tools.thirdparty.arrow;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -32,7 +32,7 @@ import org.testng.internal.Utils;
 import org.testng.log4testng.Logger;
 import org.testng.xml.XmlSuite;
 
-import com.juanpi.tools.thirdparty.arrow.utils.ConfigReader;
+import com.dessert.tools.thirdparty.arrow.utils.ConfigReader;
 import com.thoughtworks.qdox.JavaDocBuilder;
 import com.thoughtworks.qdox.model.DocletTag;
 import com.thoughtworks.qdox.model.JavaClass;

@@ -1,7 +1,8 @@
-package com.juanpi.base;
+package com.dessert.base;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
+
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.ITestContext;
@@ -10,10 +11,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
-import com.juanpi.pages.base.BasePage;
-import com.juanpi.tools.AssertUtil;
-import com.juanpi.tools.CSVDataProvider;
-import com.juanpi.tools.SeleniumUtil;
+import com.dessert.pages.base.BasePage;
+import com.dessert.tools.AssertUtil;
+import com.dessert.tools.CSVDataProvider;
+import com.dessert.tools.SeleniumUtil;
 
 /**
  * Including the setUp and tearDown methods to initialize and end driver. <br>

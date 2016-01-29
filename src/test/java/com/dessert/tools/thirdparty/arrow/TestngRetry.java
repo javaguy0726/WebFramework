@@ -1,4 +1,4 @@
-package com.juanpi.tools.thirdparty.arrow;
+package com.dessert.tools.thirdparty.arrow;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -6,7 +6,7 @@ import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
-import com.juanpi.tools.thirdparty.arrow.utils.ConfigReader;
+import com.dessert.tools.thirdparty.arrow.utils.ConfigReader;
 
 
 /**

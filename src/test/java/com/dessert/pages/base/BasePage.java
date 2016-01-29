@@ -1,4 +1,4 @@
-package com.juanpi.pages.base;
+package com.dessert.pages.base;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -7,14 +7,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.WebElement;
-import com.juanpi.tools.DateUtil;
-import com.juanpi.tools.DbUtil;
-import com.juanpi.tools.RandomUtil;
-import com.juanpi.tools.SeleniumUtil;
-import com.juanpi.tools.ObjectHelper;
-import com.juanpi.tools.SshShellUtil;
+
+import com.dessert.tools.DateUtil;
+import com.dessert.tools.DbUtil;
+import com.dessert.tools.ObjectHelper;
+import com.dessert.tools.RandomUtil;
+import com.dessert.tools.SeleniumUtil;
+import com.dessert.tools.SshShellUtil;
 
 /**
  * Convenient utility methods for all page objects. <p>
