@@ -18,7 +18,7 @@ import com.dessert.tools.thirdparty.arrow.utils.ConfigReader;
 
 public class TestngRetry implements IRetryAnalyzer {
 	static {
-		PropertyConfigurator.configure("src/test/resources/com/juanpi/config/log4j.properties");
+		PropertyConfigurator.configure("src/test/resources/com/dessert/config/log4j.properties");
 	}
 	private static Logger logger = Logger.getLogger(TestngRetry.class);
 	private int retryCount = 1;
