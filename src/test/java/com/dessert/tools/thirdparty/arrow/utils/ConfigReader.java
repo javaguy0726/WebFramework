@@ -24,7 +24,7 @@ public class ConfigReader {
 	private static final String RETRYCOUNT = "retrycount";
 	private static final String SOURCEDIR = "sourcecodedir";
 	private static final String SOURCEENCODING = "sourcecodeencoding";
-	private static final String CONFIGFILE = "src/test/resources/com/juanpi/config/arrow.properties";    //set the arrow.properties file
+	private static final String CONFIGFILE = "src/test/resources/com/dessert/config/arrow.properties";    //set the arrow.properties file
 
 	private ConfigReader() {
 		readConfig(CONFIGFILE);
