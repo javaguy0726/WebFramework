@@ -92,9 +92,9 @@ public class TestInitialization {
 	@DataProvider(name = "testData")
 	public Object[][] getCSVData(Method m) throws IOException{
 			CSVDataProvider csvData = new CSVDataProvider();
-			String testEnv = System.getProperty("testEnv");
+//			String testEnv = System.getProperty("testEnv");
 			String method = m.toString();
-			String classPath = method.substring(method.lastIndexOf(" "), method.lastIndexOf(".test")).trim().replace(".", "/").replace("cases", "data/csv/"+testEnv);
+			String classPath = method.substring(method.lastIndexOf(" "), method.lastIndexOf(".test")).trim().replace(".", "/").replace("cases", "data/csv");
 			Object[][] allData = csvData.readCSVData(classPath);
 			return allData;
 		}		
