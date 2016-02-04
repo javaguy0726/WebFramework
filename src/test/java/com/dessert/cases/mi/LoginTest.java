@@ -33,6 +33,7 @@ public class LoginTest extends TestInitialization{
 		PageFactory.initElements(seleniumUtil.driver, this);  //加1行
 		
 		basePage.open(url);
+		
 		//WebElement username = seleniumUtil.findElement(By.xpath(".//input[@id='username']"));
 		//WebElement password = seleniumUtil.findElement(By.xpath(".//input[@id='pwd']"));
 		//WebElement submit = seleniumUtil.findElement(By.xpath(".//input[@id='login-button']"));
