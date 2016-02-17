@@ -12,11 +12,10 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<selenium.version>2.48.1</selenium.version>
+		<selenium.version>2.47.1</selenium.version>
 		<skipTests>false</skipTests>
 		<file.encoding>UTF-8</file.encoding>
 		<surefire.plugin.revision>2.18.1</surefire.plugin.revision>
-		<debugEnv>mi</debugEnv>
 	</properties>
 
 	<dependencies>
@@ -260,7 +259,6 @@
 						<configuration>
 						    <skipTests>${skipTests}</skipTests>
 						    <systemPropertyVariables>
-						    	<testEnv>${debugEnv}</testEnv>
 						    </systemPropertyVariables>
 							<argLine>-Dfile.encoding=${file.encoding}</argLine>
 							<argLine>-Xms1024m -Xmx2048m -XX:PermSize=256m -XX:MaxPermSize=512m</argLine>
