@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 import com.dessert.base.TestInitialization;
 
 public class BuyRouter extends TestInitialization {
+	@FindBy(xpath =".//div[@id='J_userInfo']/a[@data-stat-id='bf3aa4c80c0ac789']")
+	private WebElement login;
 	
 	@FindBy(xpath =".//input[@id='username']")
 	private WebElement username;
@@ -42,26 +44,23 @@ public class BuyRouter extends TestInitialization {
 		PageFactory.initElements(seleniumUtil.driver, this); 
 		
 		basePage.open(url);
+		basePage.waitForElementToLoad(login);
+		basePage.click(login);
 		basePage.waitForElementToLoad(username);
+		
+		//登录
 		basePage.typeAfterClear(username, uname);
 		basePage.typeAfterClear(password, pwd);
 		basePage.click(submit);
-		basePage.waitForFixedSeconds(5);
-		
-		//进入官网首页
-		basePage.open("http://www.mi.com");
-		basePage.waitForFixedSeconds(10);
-		
 		basePage.waitForElementToLoad(category);
 		
 		//选择路由器mini点击
 		basePage.mouseMoveAndSelectDropdown(category, categorychird);
-		basePage.waitForFixedSeconds(10);
+		basePage.waitForElementToLoad(gotobuy);
 		
 		//点击立即前往购买
-		basePage.waitForElementToLoad(gotobuy);
 		basePage.click(gotobuy);
-		basePage.waitForFixedSeconds(10);
+		basePage.waitForElementToLoad(selectcolor);
 		
 		//选择白色
 		basePage.click(selectcolor);
