@@ -18,8 +18,9 @@
 
 	<test verbose="2" name="小米" preserve-order="true">
 		<classes>
-		
-		 	<class name="com.dessert.cases.mi.LoginTest" />
+			<!-- <class name="com.dessert.cases.mi.LoginTest" /> -->
+		 	
+		 	<class name="com.dessert.cases.mi.BuyRouter" />
 		 	
 		</classes>
 	</test>
