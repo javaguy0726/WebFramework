@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="实用自动化" parallel="tests" thread-count="1" >
+	<!-- configure the browser -->
+	<parameter name="browserName" value="firefox" />
+	<!-- Front site address -->
+	<parameter name="miUrl" value="http://www.xiaomi.com/" />
+	<!-- Path of driver.properties, it contains browsers configurations -->
+	<parameter name="driverConfgFilePath" value="src/test/resources/com/dessert/config/driver.properties" />
+	<!-- Set the page timeout when new page is opened-->
+	<parameter name="pageTimeOut" value="30000" />
+	<!-- Set the page timeout when new page is opened-->
+	<parameter name="picTimeOut" value="50000" />
+	<!-- Set the elements timeout when clicking on them-->
+	<parameter name="elementTimeOut" value="20000" />
+	<!-- Set the elements timeout when clicking on them-->
+	<parameter name="promptWindowTimeOut" value="20000" />
+
+	<test verbose="2" name="京东" preserve-order="true">
+		<classes>
+			<!-- <class name="com.dessert.cases.jd.LoginTest" /> -->
+		 	
+		 	<class name="com.dessert.cases.jd.LoginTest" />
+		 	
+		</classes>
+	</test>
+
+	<listeners>
+		<!-- Using arrow plug-in to retry failure test and generate report -->
+		<listener class-name="com.dessert.tools.thirdparty.arrow.TestResultListener" />
+		<listener class-name="com.dessert.tools.thirdparty.arrow.RetryListener" />
+		<listener class-name="com.dessert.tools.thirdparty.arrow.PowerEmailableReporter" />
+	</listeners>
+
+</suite> 
+
