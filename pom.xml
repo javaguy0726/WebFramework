@@ -149,7 +149,6 @@
 	</dependencies>
 
 	<build>
-		<defaultGoal>clean test -Pmi</defaultGoal>
 		<sourceDirectory>${basedir}/src/main/java</sourceDirectory>
 		<outputDirectory>${basedir}/target/classes</outputDirectory>
 		<testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
@@ -247,7 +246,7 @@
 		<profile>
 			<id>mi</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 				<jdk>[1.7, 1.8]</jdk>
 			</activation>
 			<build>
@@ -279,10 +278,6 @@
 		</profile>
 		<profile>
 			<id>jd</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-				<jdk>[1.7, 1.8]</jdk>
-			</activation>
 			<build>
 				<plugins>
 					<plugin>

@@ -95,7 +95,7 @@ public class ObjectHelper {
 	 */
 	public String autoItPath(String fileName){
 		String userDir = System.getProperty("user.dir");
-		String autoItPath =  userDir+"\\src\\test\\resources\\com\\juanpi\\assist\\autoit\\"+fileName;
+		String autoItPath =  userDir+"\\src\\test\\resources\\com\\dessert\\assist\\autoit\\"+fileName;
 		return autoItPath;
 		
 	}
@@ -106,7 +106,7 @@ public class ObjectHelper {
 	 */
 	public String imgPath(String fileName){
 		String userDir = System.getProperty("user.dir");
-		String autoItPath =  userDir+"\\src\\test\\resources\\com\\juanpi\\data\\img\\"+fileName;
+		String autoItPath =  userDir+"\\src\\test\\resources\\com\\dessert\\data\\img\\"+fileName;
 		return autoItPath;
 	}
 	
@@ -116,7 +116,7 @@ public class ObjectHelper {
 	 */
 	public String xlsPath(String fileName){
 		String userDir = System.getProperty("user.dir");
-		String autoItPath =  userDir+"\\src\\test\\resources\\com\\juanpi\\data\\xls\\"+fileName;
+		String autoItPath =  userDir+"\\src\\test\\resources\\com\\dessert\\data\\xls\\"+fileName;
 		return autoItPath;
 	}
 
