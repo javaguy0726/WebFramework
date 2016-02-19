@@ -18,11 +18,11 @@ public class LoginTest extends TestInitialization{
 	private WebElement submit;
 	
 	@FindBy(xpath =".//*[@id='ttbar-login']/a[2]")
-	private WebElement logout;
+	private WebElement LOGOUT;
 	
 	@Test(dataProvider ="testData", description ="京东登录")//引用csv
 	public void testLogin(String url,String uname,String pwd){
-		PageFactory.initElements(seleniumUtil.driver, this);
+		PageFactory.initElements(seleniumUtil.driver, this); //工厂初始化数据，赋值
 		
 		basePage.open(url);
 		basePage.waitForElementToLoad(username);
@@ -30,9 +30,9 @@ public class LoginTest extends TestInitialization{
 		basePage.typeAfterClear(password,pwd);
 		basePage.click(submit);
 		
-		basePage.waitForFixedSeconds(10);//等待10s
+		basePage.waitForElementToLoad(LOGOUT);
 		
-		basePage.click(logout);
+		basePage.click(LOGOUT);
 		basePage.waitForFixedSeconds(10);
 		
 	}

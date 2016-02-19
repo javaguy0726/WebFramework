@@ -12,11 +12,10 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<selenium.version>2.48.1</selenium.version>
+		<selenium.version>2.47.1</selenium.version>
 		<skipTests>false</skipTests>
 		<file.encoding>UTF-8</file.encoding>
 		<surefire.plugin.revision>2.18.1</surefire.plugin.revision>
-		<debugEnv>mi</debugEnv>
 	</properties>
 
 	<dependencies>
@@ -150,7 +149,6 @@
 	</dependencies>
 
 	<build>
-		<defaultGoal>clean test -Pmi</defaultGoal>
 		<sourceDirectory>${basedir}/src/main/java</sourceDirectory>
 		<outputDirectory>${basedir}/target/classes</outputDirectory>
 		<testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
@@ -248,7 +246,7 @@
 		<profile>
 			<id>mi</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 				<jdk>[1.7, 1.8]</jdk>
 			</activation>
 			<build>
@@ -260,7 +258,6 @@
 						<configuration>
 						    <skipTests>${skipTests}</skipTests>
 						    <systemPropertyVariables>
-						    	<testEnv>${debugEnv}</testEnv>
 						    </systemPropertyVariables>
 							<argLine>-Dfile.encoding=${file.encoding}</argLine>
 							<argLine>-Xms1024m -Xmx2048m -XX:PermSize=256m -XX:MaxPermSize=512m</argLine>
@@ -281,10 +278,6 @@
 		</profile>
 		<profile>
 			<id>jd</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-				<jdk>[1.7, 1.8]</jdk>
-			</activation>
 			<build>
 				<plugins>
 					<plugin>
