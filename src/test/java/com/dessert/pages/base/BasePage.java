@@ -291,6 +291,12 @@ public class BasePage {
 		click(link);
 	}
 	
+	public void mouseMoveClickToNewWindow(WebElement area, WebElement link){
+		this.selenium.mouseMoveToElement(area);
+		waitForElementTextToDisplay(link);
+		switchToNewWindow(link);
+	}
+	
 	/**
 	 * Get the attribute value of element according to attribute name. <p>
 	 * 通过属性名获取元素属性值
