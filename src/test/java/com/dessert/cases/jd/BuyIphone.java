@@ -27,10 +27,10 @@ public class BuyIphone extends TestInitialization{
 	@FindBy(xpath =".//em[text()='Apple iPhone 6s Plus (A1699) 64G 玫瑰金色 移动联通电信4G手机']")
 	private WebElement IPHONE;
 	
-	@FindBy(xpath =".//*[@id='choose-color']/div[2]/div[2]/a")
+	@FindBy(xpath =".//a[@title='金色']")
 	private WebElement SELECTCOLOR;
 	
-	@FindBy(xpath =".//*[@id='InitCartUrl']/b")
+	@FindBy(xpath =".//*[@id='InitCartUrl']")
 	private WebElement SHOOPING;
 	
 	@Test(dataProvider ="testData", description ="京东购买手机")//引用csv
@@ -54,7 +54,7 @@ public class BuyIphone extends TestInitialization{
 		basePage.waitForElementToLoad(IPHONE);
 		
 	    //选择iphone
-		basePage.click(IPHONE);
+		basePage.switchToNewWindow(IPHONE);
 		basePage.waitForFixedSeconds(10);//等待10s
 		
 		//选择颜色
