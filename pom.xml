@@ -214,33 +214,6 @@
    			</plugin>
 		</plugins>
 	</build>	
-
-	<repositories>
-		<repository>
-			<id>internal</id>
-			<name>Internal Nexus</name>
-			<url>http://192.168.16.50:8081/nexus/content/repositories/public</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>internal</id>
-			<name>Internal Nexus</name>
-			<url>http://192.168.16.50:8081/nexus/content/repositories/public</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
 	
 	<profiles>
 		<profile>
