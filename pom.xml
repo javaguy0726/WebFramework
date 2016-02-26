@@ -16,7 +16,7 @@
 		<skipTests>false</skipTests>
 		<file.encoding>UTF-8</file.encoding>
 		<surefire.plugin.revision>2.18.1</surefire.plugin.revision>
-		<debugEnv>mi</debugEnv>
+		<debugEnv>oa</debugEnv>
 	</properties>
 
 	<dependencies>
@@ -246,7 +246,7 @@
 	
 	<profiles>
 		<profile>
-			<id>mi</id>
+			<id>oa</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 				<jdk>[1.7, 1.8]</jdk>
@@ -271,7 +271,7 @@
             					<include>**/*Test.java</include>
           					</includes>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng_xmls/xiaomi.xml</suiteXmlFile>
+								<suiteXmlFile>testng_xmls/oa.xml</suiteXmlFile>
 							</suiteXmlFiles>
 							<reportsDirectory>${project.build.directory}/test-report</reportsDirectory>
 						</configuration>
