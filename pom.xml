@@ -218,10 +218,6 @@
 	<profiles>
 		<profile>
 			<id>oa</id>
-			<activation>
-				<activeByDefault>false</activeByDefault>
-				<jdk>[1.7, 1.8]</jdk>
-			</activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -251,10 +247,6 @@
 		</profile>
 		<profile>
 			<id>mi</id>
-			<activation>
-				<activeByDefault>false</activeByDefault>
-				<jdk>[1.7, 1.8]</jdk>
-			</activation>
 			<build>
 				<plugins>
 					<plugin>
