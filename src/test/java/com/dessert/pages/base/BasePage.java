@@ -1323,6 +1323,19 @@ public class BasePage {
 		return db;
 	}
 	
+	/**
+	 * Get the number of sub-elements by an element. <p>
+	 * 获取父元素下的一组子元素的个数
+	 * 
+	 * @param element
+	 * @param by
+	 * @return true for success and false for fail
+	 */
+	public int sizeOfElementsBy(WebElement element, String by){
+		 int size = this.selenium.findElementsBy(element, by).size();
+		 return size;
+	}
+
 	
 	/**
 	 * Perform multiple update operations and get the updated each result. <p>

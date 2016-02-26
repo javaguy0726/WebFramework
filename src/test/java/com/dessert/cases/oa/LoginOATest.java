@@ -1,4 +1,4 @@
-package com.dessert.cases;
+package com.dessert.cases.oa;
 
 import java.util.ArrayList;
 import java.util.List;
