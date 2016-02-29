@@ -16,6 +16,7 @@
 		<skipTests>false</skipTests>
 		<file.encoding>UTF-8</file.encoding>
 		<surefire.plugin.revision>2.18.1</surefire.plugin.revision>
+
 	</properties>
 
 	<dependencies>
