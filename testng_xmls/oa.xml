@@ -4,7 +4,7 @@
 	<!-- configure the browser -->
 	<parameter name="browserName" value="firefox" />
 	<!-- Front site address -->
-	<parameter name="oaUrl" value="http://192.168.1.168/login.php" />
+	<parameter name="miUrl" value="http://192.168.1.168/login.php" />
 	<!-- Path of driver.properties, it contains browsers configurations -->
 	<parameter name="driverConfgFilePath" value="src/test/resources/com/dessert/config/driver.properties" />
 	<!-- Set the page timeout when new page is opened-->
@@ -18,7 +18,13 @@
 
 	<test verbose="2" name="oa" preserve-order="true">
 		<classes>
+<<<<<<< HEAD
 		 	<class name="com.dessert.cases.LoginOATest" /> 	
+=======
+		
+		 	<class name="com.dessert.cases.oa.LoginOATest" />
+		 	
+>>>>>>> refs/remotes/origin/liantai
 		</classes>
 	</test>
 
