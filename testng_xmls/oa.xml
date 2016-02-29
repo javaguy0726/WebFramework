@@ -4,26 +4,6 @@
 	<!-- configure the browser -->
 	<parameter name="browserName" value="firefox" />
 	<!-- Front site address -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-	<parameter name="miUrl" value="http://192.168.1.168/login.php" />
-	<!-- Path of driver.properties, it contains browsers configurations -->
-	<parameter name="driverConfgFilePath" value="src/test/resources/com/dessert/config/driver.properties" />
-	<!-- Set the page timeout when new page is opened-->
-	<parameter name="pageTimeOut" value="30000" />
-	<!-- Set the page timeout when new page is opened-->
-	<parameter name="picTimeOut" value="50000" />
-	<!-- Set the elements timeout when clicking on them-->
-	<parameter name="elementTimeOut" value="20000" />
-	<!-- Set the elements timeout when clicking on them-->
-	<parameter name="promptWindowTimeOut" value="20000" />
-
-	<test verbose="2" name="oa" preserve-order="true">
-		<classes>
-		
-		 	<class name="com.dessert.cases.oa.LoginOATest" />
-=======
 	<parameter name="oaUrl" value="http://192.168.1.168/login.php" />
 	<!-- Path of driver.properties, it contains browsers configurations -->
 	<parameter name="driverConfgFilePath" value="src/test/resources/com/dessert/config/driver.properties" />
@@ -38,46 +18,7 @@
 
 	<test verbose="2" name="oa" preserve-order="true">
 		<classes>
-		
-		 	<class name="com.dessert.cases.LoginOATest" />
->>>>>>> branch 'yuge' of ssh://git@github.com/javaguy0726/WebFramework.git
-=======
-	<parameter name="oaUrl" value="http://192.168.1.168/login.php" />
-	<!-- Path of driver.properties, it contains browsers configurations -->
-	<parameter name="driverConfgFilePath" value="src/test/resources/com/dessert/config/driver.properties" />
-	<!-- Set the page timeout when new page is opened-->
-	<parameter name="pageTimeOut" value="30000" />
-	<!-- Set the page timeout when new page is opened-->
-	<parameter name="picTimeOut" value="50000" />
-	<!-- Set the elements timeout when clicking on them-->
-	<parameter name="elementTimeOut" value="20000" />
-	<!-- Set the elements timeout when clicking on them-->
-	<parameter name="promptWindowTimeOut" value="20000" />
-
-	<test verbose="2" name="oa" preserve-order="true">
-		<classes>
-		
-		 	<class name="com.dessert.cases.LoginOATest" />
->>>>>>> branch 'yuge' of ssh://git@github.com/javaguy0726/WebFramework.git
-=======
-	<parameter name="oaUrl" value="http://192.168.1.168/login.php" />
-	<!-- Path of driver.properties, it contains browsers configurations -->
-	<parameter name="driverConfgFilePath" value="src/test/resources/com/dessert/config/driver.properties" />
-	<!-- Set the page timeout when new page is opened-->
-	<parameter name="pageTimeOut" value="30000" />
-	<!-- Set the page timeout when new page is opened-->
-	<parameter name="picTimeOut" value="50000" />
-	<!-- Set the elements timeout when clicking on them-->
-	<parameter name="elementTimeOut" value="20000" />
-	<!-- Set the elements timeout when clicking on them-->
-	<parameter name="promptWindowTimeOut" value="20000" />
-
-	<test verbose="2" name="oa" preserve-order="true">
-		<classes>
-		
-		 	<class name="com.dessert.cases.LoginOATest" />
->>>>>>> branch 'yuge' of ssh://git@github.com/javaguy0726/WebFramework.git
-		 	
+		 	<class name="com.dessert.cases.LoginOATest" /> 	
 		</classes>
 	</test>
 
