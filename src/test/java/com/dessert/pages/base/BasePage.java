@@ -31,7 +31,7 @@ public class BasePage {
 	protected int picTimeout;
 	protected int elementTimeout;
 	protected int promptWindowTimeOut;
-	protected String miUrl;
+	protected String oaUrl;
 	protected String dbEnv;
 
 //	protected static HashMap<Object, Object> shareValues = new HashMap<>();
@@ -56,7 +56,7 @@ public class BasePage {
 		this.picTimeout = basePage.picTimeout;
 		this.elementTimeout = basePage.elementTimeout;
 		this.promptWindowTimeOut = basePage.promptWindowTimeOut;
-		this.miUrl = basePage.miUrl;
+		this.oaUrl = basePage.oaUrl;
 		this.dbEnv = basePage.dbEnv;
 		this.shareValues = basePage.shareValues;
 	}
@@ -479,6 +479,8 @@ public class BasePage {
 		this.selenium.waitForSelectToLoadIndexOfOption(element, elementTimeout, index);
 		this.selenium.selectByIndex(element, index);
 	}
+	
+	
 	
 	/**
 	 * Get all the option texts. <p>
@@ -1300,6 +1302,20 @@ public class BasePage {
 	}
 	
 	/**
+	 * Get the number of sub-elements by an element. <p>
+	 * 获取父元素下的一组子元素的个数
+	 * 
+	 * @param element
+	 * @param by
+	 * @return true for success and false for fail
+	 */
+	public int sizeOfElementsBy(WebElement element, String by){
+		 int size = this.selenium.findElementsBy(element, by).size();
+		 return size;
+	}
+	
+	
+	/**
 	 * Select the correct database. <p>
 	 * 选择要连接的数据库
 	 * 
@@ -1323,6 +1339,19 @@ public class BasePage {
 		return db;
 	}
 	
+	/**
+	 * Get the number of sub-elements by an element. <p>
+	 * 获取父元素下的一组子元素的个数
+	 * 
+	 * @param element
+	 * @param by
+	 * @return true for success and false for fail
+	 */
+	public int sizeOfElementsBy(WebElement element, String by){
+		 int size = this.selenium.findElementsBy(element, by).size();
+		 return size;
+	}
+
 	
 	/**
 	 * Perform multiple update operations and get the updated each result. <p>
@@ -1459,11 +1488,11 @@ public class BasePage {
 	}
 
 	public void setMiUrl(String url){
-		this.miUrl = url;
+		this.oaUrl = url;
 	}
 	
 	public String getMiUrl(){
-		return miUrl;
+		return oaUrl;
 	}
 	
 	public Object getShareValue(Object key) {

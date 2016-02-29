@@ -44,9 +44,9 @@ public class TestInitialization {
 	 * @param promptWindowTimeOut 等待弹出框加载时间限制
 	 * @param context TestNg上下文
 	 */
-	@Parameters({"browserName", "miUrl","pageTimeOut","picTimeOut","elementTimeOut","promptWindowTimeOut"})
+	@Parameters({"browserName", "oaUrl","pageTimeOut","picTimeOut","elementTimeOut","promptWindowTimeOut"})
 	@BeforeClass
-	public void setUp(String browserName, String miUrl, int pageTimeOut, int picTimeOut, int elementTimeOut, int promptWindowTimeOut,  ITestContext context) {
+	public void setUp(String browserName, String oaUrl, int pageTimeOut, int picTimeOut, int elementTimeOut, int promptWindowTimeOut,  ITestContext context) {
 		
 		this.seleniumUtil = new SeleniumUtil();
 		this.assertUtil = new AssertUtil(this.seleniumUtil);
@@ -58,7 +58,7 @@ public class TestInitialization {
 			this.basePage.setPicTimeout(picTimeOut);
 			this.basePage.setElementTimeout(elementTimeOut);
 			this.basePage.setPromptWindowTimeout(promptWindowTimeOut);
-			this.basePage.setMiUrl(miUrl);
+			this.basePage.setMiUrl(oaUrl);
 			this.basePage.getSelenium().launchBrowser(browserName, context);
 
 		} catch (Exception e) {

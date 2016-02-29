@@ -214,41 +214,10 @@
    			</plugin>
 		</plugins>
 	</build>	
-
-	<repositories>
-		<repository>
-			<id>internal</id>
-			<name>Internal Nexus</name>
-			<url>http://192.168.16.50:8081/nexus/content/repositories/public</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>internal</id>
-			<name>Internal Nexus</name>
-			<url>http://192.168.16.50:8081/nexus/content/repositories/public</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
 	
 	<profiles>
 		<profile>
 			<id>oa</id>
-			<activation>
-				<activeByDefault>false</activeByDefault>
-				<jdk>[1.7, 1.8]</jdk>
-			</activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -278,10 +247,6 @@
 		</profile>
 		<profile>
 			<id>mi</id>
-			<activation>
-				<activeByDefault>false</activeByDefault>
-				<jdk>[1.7, 1.8]</jdk>
-			</activation>
 			<build>
 				<plugins>
 					<plugin>
@@ -301,7 +266,7 @@
             					<include>**/*Test.java</include>
           					</includes>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng_xmls/xiaomi.xml</suiteXmlFile>
+								<suiteXmlFile>testng_xmls/oa.xml</suiteXmlFile>
 							</suiteXmlFiles>
 							<reportsDirectory>${project.build.directory}/test-report</reportsDirectory>
 						</configuration>
@@ -320,7 +285,6 @@
 						<configuration>
 						    <skipTests>${skipTests}</skipTests>
 						    <systemPropertyVariables>
-						    	<testEnv>${debugEnv}</testEnv>
 						    </systemPropertyVariables>
 							<argLine>-Dfile.encoding=${file.encoding}</argLine>
 							<argLine>-Xms1024m -Xmx2048m -XX:PermSize=256m -XX:MaxPermSize=512m</argLine>
