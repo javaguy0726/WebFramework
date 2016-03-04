@@ -207,6 +207,12 @@ public class AssertUtil {
 	public void fail(String message){
 		Assert.fail(message);
 	}
+
+	public void assertElementDisplayed(List<WebElement> cONSIGNMOBILENOTE,
+			String string) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	
