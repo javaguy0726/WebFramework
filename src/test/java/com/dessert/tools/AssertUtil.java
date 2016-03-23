@@ -9,6 +9,9 @@ import org.codehaus.plexus.util.StringUtils;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+import com.gargoylesoftware.htmlunit.javascript.host.Element;
+import com.google.inject.spi.Elements;
+
 public class AssertUtil {
 
 	private SeleniumUtil seleniumUtil;
@@ -206,6 +209,11 @@ public class AssertUtil {
 	 */
 	public void fail(String message){
 		Assert.fail(message);
+	}
+
+	public void assertElementDisplayed(List<WebElement> elements) {
+		this.logger.info("Verifying element ["+seleniumUtil.getElementLocator(elements.get(0), ">")+"] has been displayed...");
+		Assert.assertTrue(seleniumUtil.isDisplayed(elements.get(0)),"More than one result is found !");
 	}
 	
 	

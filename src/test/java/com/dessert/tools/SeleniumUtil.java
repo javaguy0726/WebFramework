@@ -943,6 +943,17 @@ public class SeleniumUtil{
 	}
 	
 	/**
+	 * Get the text of alert. <p>
+	 * 获取alert窗口的文本
+	 * 
+	 * @param waitMillisecondsForAlert
+	 * @return
+	 */
+	public String getAlertText(int waitMillisecondsForAlert){
+		return switchToAlertAfterWait(waitMillisecondsForAlert).getText();
+	}
+	
+	/**
 	 * Accept the Alert window recursively if it exists. <p>
 	 * 在alert弹出框上点击确定，如果点击确定后又弹出一个框，则再点击确定，直到全部关闭为止.(此方法除非是特殊情况，否则不推荐使用)
 	 * 

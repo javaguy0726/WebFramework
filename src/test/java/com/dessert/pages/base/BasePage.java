@@ -353,6 +353,18 @@ public class BasePage {
 	}
 	
 	/**
+	 * Accept the alert window and get the text of it. <p>
+	 * 弹框上点击确定并获取弹框内容
+	 * 
+	 * @return
+	 */
+	public String acceptAndGetAlertText(){
+		String message =  this.selenium.getAlertText(promptWindowTimeOut);
+		this.selenium.acceptAlert(promptWindowTimeOut);
+		return message;
+	}
+	
+	/**
 	 * Accept the Alert window. <p>
 	 * 弹框上点击确定,如果连续出现弹出框，则一个个关闭直到关掉所有的
 	 * 

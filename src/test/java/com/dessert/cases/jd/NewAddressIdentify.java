@@ -9,7 +9,8 @@ import org.testng.annotations.Test;
 
 import com.dessert.base.TestInitialization;
 
-public class CreateNewAddress extends TestInitialization{
+
+public class NewAddressIdentify extends TestInitialization{
 
 	@FindBy(xpath =".//*[@id='loginname']")
 	private WebElement USERNAME;
@@ -32,8 +33,14 @@ public class CreateNewAddress extends TestInitialization{
 	@FindBy(xpath =".//a[text()='保存收货地址']")
 	private WebElement SAVEADDRESS;
 	
+	@FindBy(xpath =".//*[@id='consigneeNameNote']")
+	private List<WebElement> CONSIGNEENAMENOTE;
+	
 	@FindBy(xpath =".//*[@id='consigneeName']")
 	private WebElement CONSIGNEENAME;
+	
+	@FindBy(xpath =".//*[@id='consigneeAddressNote']")
+	private List<WebElement> CONSIGNADDRESSNOTE;
 	
 	@FindAll
 	({@FindBy(xpath =".//*[@id='provinceDiv']"),
@@ -46,14 +53,14 @@ public class CreateNewAddress extends TestInitialization{
 	@FindBy(xpath =".//*[@id='consigneeAddress']")
 	private WebElement CONSIGNEEADDRESS;
 	
+	@FindBy(xpath =".//*[@id='consigneeMobileNote']")
+	private List<WebElement> CONSIGNMOBILENOTE;
+	
 	@FindBy(xpath =".//*[@id='consigneeMobile']")
 	private WebElement CONSIGNEEMOBILE;
 	
-	@FindBy(xpath =".//*[@id='consigneeEmail']")
-	private WebElement CONSIGNEEEMAIL;
-	
-	@Test(dataProvider ="testData", description ="京东新增收货地址")//引用csv
-	public void testLogin(String url,String uname,String pwd,String name,String zone,String address,String mobile,String email){
+	@Test(dataProvider ="testData", description ="收货地址姓名校验")//引用csv
+	public void testLogin(String url,String uname,String pwd){
 		
 		PageFactory.initElements(seleniumUtil.driver, this);
 		
@@ -76,15 +83,23 @@ public class CreateNewAddress extends TestInitialization{
 		
 		//点击新增收货地址
 		basePage.click(NEWADDRESS);
-		basePage.waitForFixedSeconds(10);//等待10s
-		basePage.type(CONSIGNEENAME,name);//输入收件人
-		basePage.selectCascadingOptions(AREA,zone);//选择所在地区
-		basePage.type(CONSIGNEEADDRESS,address);//输入详细地址
-		basePage.type(CONSIGNEEMOBILE,mobile);//输入电话
-		basePage.type(CONSIGNEEEMAIL,email);//输入邮箱地址
+		basePage.waitForElementToLoad(SAVEADDRESS);
 		basePage.click(SAVEADDRESS);//保存收货地址
+		assertUtil.assertElementsTextEquals(CONSIGNEENAMENOTE,"请您填写收货人姓名");//校验提示：请您填写收货人姓名
+		basePage.type(CONSIGNEENAME,"shuotest");//输入收货人
+		basePage.click(SAVEADDRESS);//保存收货地址
+		assertUtil.assertElementsTextEquals(CONSIGNADDRESSNOTE, "请您填写收货人详细地址");//校验提示：请您填写收货人详细地址
 		basePage.waitForFixedSeconds(10);//等待10s
-		
-	}
-	
+		basePage.selectCascadingOptions(AREA,"湖北:武汉市:洪山区:城区");//选择所在地区
+		basePage.type(CONSIGNEEADDRESS,"关谷大道");//输入详细地址
+		basePage.click(SAVEADDRESS);//保存收货地址
+		assertUtil.assertElementDisplayed(CONSIGNMOBILENOTE);//校验提示：请您填写收货人手机号码
+		basePage.type(CONSIGNEEMOBILE,"1867296803");//输入错误电话
+		assertUtil.assertElementDisplayed(CONSIGNMOBILENOTE);//校验提示：手机号码格式不正确
+		basePage.waitForFixedSeconds(5);//等待5s
+		basePage.typeAfterClear(CONSIGNEEMOBILE,"18672968031");//输入正确电话
+		basePage.click(SAVEADDRESS);//保存收货地址
+  
+		basePage.waitForFixedSeconds(10);//等待10s		
+	}	
 }
