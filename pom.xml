@@ -18,7 +18,7 @@
 		<surefire.plugin.revision>2.18.1</surefire.plugin.revision>
 	</properties>
 
-	<dependencies>
+<dependencies>
 		<dependency>
 			<groupId>com.opencsv</groupId>
 			<artifactId>opencsv</artifactId>
@@ -61,13 +61,18 @@
 			<version>1.2.17</version>
 		</dependency>
 		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-server</artifactId>
-			<version>${selenium.version}</version>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>19.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
 			<version>${selenium.version}</version>
 		</dependency>
 		<dependency>
@@ -79,6 +84,51 @@
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-api</artifactId>
 			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-support</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>2.52.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-ie-driver</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-safari-driver</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-edge-driver</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-iphone-driver</artifactId>
+			<version>2.39.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-android-driver</artifactId>
+			<version>2.39.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium.fluent</groupId>
@@ -136,18 +186,9 @@
 			<version>3.5</version>
 		</dependency>
 		
-
-		<!-- <dependency> <groupId>com.juanpi</groupId> <artifactId>selenium-java</artifactId> 
-			<version>2.47.1</version> </dependency> <dependency> <groupId>com.juanpi</groupId> 
-			<artifactId>selenium-server</artifactId> <version>2.47.1</version> </dependency> 
-			<dependency> <groupId>com.juanpi</groupId> <artifactId>guice</artifactId> 
-			<version>3.0</version> </dependency> <dependency> <groupId>com.juanpi</groupId> 
-			<artifactId>reportng</artifactId> <version>1.1.4</version> </dependency> 
-			<dependency> <groupId>com.juanpi</groupId> <artifactId>dbunit</artifactId> 
-			<version>2.4.9</version> </dependency> -->
-
 	</dependencies>
-
+	
+	
 	<build>
 		<sourceDirectory>${basedir}/src/main/java</sourceDirectory>
 		<outputDirectory>${basedir}/target/classes</outputDirectory>
