@@ -83,7 +83,7 @@ public class CreateNewAddress extends TestInitialization{
 		basePage.type(CONSIGNEEMOBILE,mobile);//输入电话
 		basePage.type(CONSIGNEEEMAIL,email);//输入邮箱地址
 		basePage.click(SAVEADDRESS);//保存收货地址
-		basePage.waitForFixedSeconds(10);//等待10s
+		basePage.waitForElementToLoad(NEWADDRESS);
 		
 	}
 	

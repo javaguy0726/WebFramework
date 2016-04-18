@@ -59,6 +59,13 @@ public class NewAddressIdentify extends TestInitialization{
 	@FindBy(xpath =".//*[@id='consigneeMobile']")
 	private WebElement CONSIGNEEMOBILE;
 	
+	@FindBy(xpath =".//*[@id='addressList']/div[2]")
+	private WebElement ADDRESSLIST;
+	
+	@FindBy(xpath =".//a[text()='确定']")
+	private WebElement CONSIGNEE;
+	
+	
 	@Test(dataProvider ="testData", description ="收货地址姓名校验")//引用csv
 	public void testLogin(String url,String uname,String pwd){
 		
@@ -100,6 +107,10 @@ public class NewAddressIdentify extends TestInitialization{
 		basePage.typeAfterClear(CONSIGNEEMOBILE,"18672968031");//输入正确电话
 		basePage.click(SAVEADDRESS);//保存收货地址
   
-		basePage.waitForFixedSeconds(10);//等待10s		
+		basePage.waitForElementToLoad(NEWADDRESS);
+		List<WebElement> aaa = basePage.findElementsBy(ADDRESSLIST, ".//a[text()='删除']");
+		basePage.click(aaa.get(0));
+		basePage.click(CONSIGNEE);//点击确定按钮
+		basePage.waitForElementToLoad(NEWADDRESS);
 	}	
 }

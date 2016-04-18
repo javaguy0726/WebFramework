@@ -18,9 +18,9 @@
 
 	<test verbose="2" name="京东" preserve-order="true">
 		<classes>
-			<!-- <class name="com.dessert.cases.jd.NewAddressIdentify" /> -->
+			<!-- <class name="com.dessert.cases.jd.ShoppingEvaluation" /> -->
 		 	
-		 	<class name="com.dessert.cases.jd.NewAddressIdentify" />
+		 	<class name="com.dessert.cases.jd.ShoppingEvaluation" />
 		 	
 		</classes>
 	</test>
